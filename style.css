@@ -21,6 +21,11 @@ h3 {
     font-size: 0.9rem;
 }
 
+p img {
+    max-height: 15px;
+    vertical-align: middle;
+}
+
 .topmenu {
     display: flex;
     justify-content: space-around;
@@ -147,8 +152,7 @@ h3 {
 
 
 .headlines img {
-    max-height: 15px;
-    vertical-align: middle;
+    
 }
 
 .headlines p {
