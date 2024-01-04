@@ -159,3 +159,8 @@ p img {
     border-bottom: 0.1rem solid lightgray;
     padding-bottom: 0.5rem;
 }
+
+.footer {
+    text-align: right;
+    color: #000;
+}
