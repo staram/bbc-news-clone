@@ -25,10 +25,25 @@ h3 {
     display: flex;
     justify-content: space-around;
     font-size: 0.7rem;
+    padding-bottom: 0.5rem;
 }
 
 .topmenu img {
     max-height: 25px;
+    display: flex;
+}
+
+.topmenuleft {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.topmenuright {
+    display: flex;
+    margin-left: auto;
+    gap: 2rem;
+    align-items: center;
 }
 
 .newsbanner {
@@ -43,7 +58,7 @@ h3 {
     color: #fff;
     font-size: 0.6rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .sitemenu a {
@@ -51,7 +66,24 @@ h3 {
     text-decoration: none;
 }
 
-#newsitem {
+.sitemenu div {
+    position: relative;
+    padding: 0.5rem;
+}
+
+/*border */
+/* .sitemenu div:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 70%;
+    border-right: 1px solid #fff
+    transform: translateY(-50%);
+  }
+*/
+
+.newsitem {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -61,11 +93,13 @@ h3 {
 }
 
 /* Hover effect on div */
-/* .sitemenu:hover {
+/* .newsitem:hover {
     border-color: green;
-    border-bottom: 1rem solid green;
+    border-bottom: 0.2rem solid #fff;
+    transition: border-bottom 0.3s ease;
 }
 */
+
 
 
 .sitemenu2 {
