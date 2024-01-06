@@ -150,11 +150,6 @@ p img {
     grid-column: -1 / -2;
 }
 
-
-.headlines img {
-    
-}
-
 .headlines p {
     border-bottom: 0.1rem solid lightgray;
     padding-bottom: 0.5rem;
